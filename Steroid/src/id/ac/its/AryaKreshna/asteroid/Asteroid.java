@@ -9,7 +9,7 @@ public class Asteroid extends Sprite{
     
     public Asteroid() {
     	
-        super( 600 , (int) (Math.random() * (470+1)) - 10 );
+        super( 600 , (int) (Math.random() * (470+1)) - 20 );
         
         initAsteroid();
     }
